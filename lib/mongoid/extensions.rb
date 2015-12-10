@@ -4,7 +4,7 @@ class BSON::ObjectId
     { "$oid" => to_s }
   end
   def to_xml(options = nil)
-    ActiveSupport::XmlMini.to_tag(options[:root], self.to_s, options)
+#    ActiveSupport::XmlMini.to_tag(options[:root], self.to_s, options)
   end
 end
 

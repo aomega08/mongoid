@@ -32,7 +32,7 @@ module Mongoid
     include ActiveModel::Model
     include ActiveModel::ForbiddenAttributesProtection
     include ActiveModel::Serializers::JSON
-    include ActiveModel::Serializers::Xml
+#    include ActiveModel::Serializers::Xml
     include Atomic
     include Changeable
     include Clients
